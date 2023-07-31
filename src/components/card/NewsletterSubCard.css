@@ -1,0 +1,12 @@
+@media (min-width: 576px) {
+  .NewsletterSubCard {
+    max-width: 375px;
+  }
+}
+
+@media (min-width: 980px) {
+  .NewsletterSubCard {
+    flex-flow: row-reverse;
+    max-width: 930px;
+  }
+}

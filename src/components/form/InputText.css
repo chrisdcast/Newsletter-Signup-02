@@ -1,0 +1,45 @@
+.InputText {
+  margin-bottom: 25px;
+
+  & input {
+    box-sizing: border-box;
+    min-height: 55px;
+    width: 100%;
+    max-width: 375px;
+    padding: 0px 25px;
+
+    border-radius: 7px;
+    border: 1px solid var(--grey);
+
+    font-size: 16px;
+
+    cursor: pointer;
+
+    transition: border 0.25s, background 0.25s;
+  }
+
+  & input[aria-invalid="true"] {
+    border: 1px solid var(--tomato);
+    background-color: var(--tomatoOpac25);
+  }
+}
+
+.LabelContainer {
+  display: flex;
+  justify-content: space-between;
+  max-width: 375px;
+
+  margin-bottom: 10px;
+
+  font-size: 12px;
+  font-weight: 700;
+
+  & p {
+    margin: 0px;
+    padding: 0px;
+
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--tomato);
+  }
+}

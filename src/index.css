@@ -1,0 +1,29 @@
+:root {
+  --tomato: hsl(4 100% 67%);
+  --tomatoOpac75: rgba(250, 83, 119, 0.75);
+  --tomatoOpac50: rgba(250, 83, 119, 0.5);
+  --tomatoOpac25: rgba(250, 83, 119, 0.25);
+  --darkSlateGrey: hsl(234 29% 20%);
+  --charcoalGrey: hsl(235 18% 26%);
+  --grey: hsl(231 7% 60%);
+
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: white;
+  margin: 0px;
+  padding: 0px;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+@media (min-width: 576px) {
+  body {
+    background-color: var(--darkSlateGrey);
+  }
+}

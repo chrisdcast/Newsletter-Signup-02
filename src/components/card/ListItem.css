@@ -1,0 +1,21 @@
+.ListItem {
+  display: flex;
+  flex-direction: row;
+
+  margin-bottom: 10px;
+
+  & p {
+    padding: 0px;
+    margin: 0px;
+  }
+}
+
+.ListIcon {
+  background-image: url("../../assets/icon-list.svg");
+  background-repeat: no-repeat;
+
+  & img {
+    content: url("../../assets/icon-list.svg");
+    margin-right: 15px;
+  }
+}

@@ -1,0 +1,18 @@
+.Card {
+  display: flex;
+  flex-direction: column;
+  background-color: none;
+  box-sizing: border-box;
+  width: 100vw;
+  filter: linear-gradient(0px 0px 15px var(--darkSlateGrey));
+}
+
+@media (min-width: 576px) {
+  .Card {
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+    border-radius: 35px;
+  }
+}

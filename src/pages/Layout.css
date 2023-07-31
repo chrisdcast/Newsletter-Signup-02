@@ -1,0 +1,13 @@
+.ActiveArea {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-grow: 1;
+  width: 100%;
+}
+
+@media (min-width: 576px) {
+  .ActiveArea {
+    align-items: center;
+  }
+}

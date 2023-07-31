@@ -1,0 +1,59 @@
+.SuccessCard {
+  justify-content: space-between;
+  align-items: start;
+  padding: 40px 25px;
+  height: 100%;
+}
+
+.SuccessCardBody {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 40px;
+  flex-grow: 1;
+
+  & h1 {
+    margin: 0px 0px 20px 0px;
+    font-size: 40px;
+    line-height: 40px;
+    color: var(--darkSlateGrey);
+  }
+
+  & p {
+    margin: 0px 0px 20px 0px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+.SuccessImageContainer {
+  width: 65px;
+  height: 65px;
+  margin-bottom: 40px;
+
+  & img {
+    content: url("../../assets/icon-success.svg");
+    object-fit: contain;
+  }
+}
+
+@media (min-width: 576px) {
+  .SuccessCard {
+    max-width: 500px;
+    height: auto;
+    padding: 60px;
+  }
+
+  .SuccessCardBody {
+    padding: 0px;
+
+    & h1 {
+      font-size: 60px;
+      line-height: 60px;
+    }
+
+    & p {
+      margin: 0px 0px 40px 0px;
+    }
+  }
+}

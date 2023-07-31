@@ -1,0 +1,11 @@
+.Success {
+  height: 100%;
+}
+
+@media (min-width: 576px) {
+  .Success {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
