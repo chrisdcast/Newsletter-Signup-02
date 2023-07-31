@@ -3,7 +3,7 @@ import CheckBoxList from "./CheckBoxList";
 import FormBody from "../form/FormBody";
 
 export default function CardBody() {
-  const listText: readonly string[] = [
+  const listText: string[] = [
     "Product discovery and building what matters",
     "Measuring to ensure updates are a success",
     "And much more!",
